@@ -17,11 +17,11 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(24, 24, 24);
+}
+
+h1 {
+  background: -webkit-linear-gradient(45deg, #ffffff, #605f5f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
