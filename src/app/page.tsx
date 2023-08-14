@@ -38,7 +38,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <div className="text-white pb-2">Easy export & sync</div>
+              <div className="text-white pb-2">Export & sync</div>
               <p className='text-white  text-sm max-w-2xl opacity-30'>
                 One click export into three.js game projects. Hot realoding lets you view your terrain in your project in realtime
               </p>
@@ -48,7 +48,7 @@ export default function Home() {
                 Broswer Based
               </div>
               <p className='text-white  text-sm max-w-2xl opacity-30'>
-                No downloads or expensive yearly contracts. also works on touch screens
+                No downloads or expensive yearly contracts. Also works on touch screens
               </p>
             </div>
             <div>
