@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <br /><br /><br /><br />
         <div className="max-w-7xl mx-auto px-6 flex">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-8 gap-8 border border-white border-opacity-[8%] rounded-xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-8 gap-8 border border-white border-opacity-[8%] rounded-xl">
             <div>
               <div className="text-white pb-2">Easy to use</div>
               <p className='text-white  text-sm max-w-2xl opacity-30'>
@@ -37,12 +37,12 @@ export default function Home() {
                 Simple procedural tools like erosion filters bring realistic details in seconds
               </p>
             </div>
-            {/* <div>
+            <div>
               <div className="text-white pb-2">Easy export & sync</div>
               <p className='text-white  text-sm max-w-2xl opacity-30'>
                 One click export into three.js game projects. Hot realoding lets you view your terrain in your project in realtime
               </p>
-            </div> */}
+            </div>
             <div>
               <div className="text-white pb-2">
                 Broswer Based
@@ -51,14 +51,14 @@ export default function Home() {
                 No downloads or expensive yearly contracts. also works on touch screens
               </p>
             </div>
-            {/* <div>
+            <div>
               <div className="text-white pb-2">
                 Infinite worlds on demand
               </div>
               <p className='text-white  text-sm max-w-2xl opacity-30'>
-                extend your terrains in realtime using our on demand terrain generation api
+                extend your terrains in any direction in realtime using our on demand terrain generation api
               </p>
-            </div> */}
+            </div>
             <div>
               <div className="text-white pb-2">
                 Any style
