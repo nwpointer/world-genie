@@ -1,5 +1,20 @@
 import Image from 'next/image'
 
+function gtag_report_conversion(url:any) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  // @ts-ignore
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11301385971/vcGjCLm2zNIYEPPt9Ywq',
+      'event_callback': callback
+  });
+  return false;
+}
+
+
 export default function Home() {
   return (
     <>
@@ -12,7 +27,7 @@ export default function Home() {
             <p className='text-white  max-w-xl opacity-30'>Using WorldGenie, anyone can create beautiful landscapes for their games. Easily export to your three.js based game or any major game engine.</p>
             <br />
             <br />
-            <a href="mailto:nwpointer@gmail.com?subject=World genie early access">
+            <a onClick={gtag_report_conversion} href="mailto:nwpointer@gmail.com?subject=World genie early access">
               <div className="inline-block cursor-pointer bg-white bg-opacity-10 hover:bg-opacity-20 px-6 py-3 rounded-lg text-white">
                 Get early access
               </div>
