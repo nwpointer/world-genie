@@ -17,6 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11301385971" />
+      <script src="/tag.js" />
     </html>
   )
 }
