@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 
 function gtag_report_conversion(url:any) {
