@@ -24,7 +24,7 @@ export default function Home() {
       <div className=''>
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between gap-8 flex-col-reverse lg:flex-row">
           <div>
-            <h1 className="text-5xl max-w-2xl font-bold text-white">Build worlds worth exploring</h1>
+            <h1 className="text-5xl max-w-2xl pb-1 font-bold text-white">Build worlds worth exploring</h1>
             <br />
             <p className='text-white  max-w-xl opacity-30'>Using WorldGenie, anyone can create beautiful landscapes for their games. Easily export to your three.js based game or any major game engine.</p>
             <br />
@@ -35,8 +35,8 @@ export default function Home() {
               </div>
             </a>
           </div>
-          <img className="max-w-md w-full lg:m-8 lg:mr-0 float-right rounded-2xl lg:block hidden" src="/scene_sq.png" alt="" />
-          <img className="max-w-mdlg:m-8 lg:mr-0 lg:float-right rounded-2xl block lg:hidden" src="/scene_wd.png" alt="" />
+          <Image className="max-w-md w-full lg:m-8 lg:mr-0 float-right rounded-2xl lg:block hidden" width="224" height={224} src="/scene_sq.png" alt="" />
+          <Image className="w-full lg:m-8 lg:mr-0 lg:float-right rounded-2xl block lg:hidden" width="874" height={556} src="/scene_wd.png" alt="" />
 
         </div>
         <br /><br /><br /><br />
