@@ -19,6 +19,10 @@ export default function RootLayout({
       <body className={inter.className}>{children}</body>
       <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11301385971" />
       <script async src="/tag.js" />
+      
+      {/* <body>
+        <div>hia</div>
+      </body> */}
     </html>
   )
 }

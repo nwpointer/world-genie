@@ -16,8 +16,16 @@
   }
 }
 
-body {
+html, body{
+  min-height: 100vh;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+body{
+  min-height: 100vh;
   background: rgb(24, 24, 24);
+  color: white
 }
 
 h1 {
@@ -25,3 +33,8 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.kontainer{
+  background: blue;
+}
+
