@@ -119,9 +119,9 @@ export default function Demo() {
             <div className="flex flex-col justify-center items-center flex-1 relative h-screen">
                 <div className="bg-blue-500 cursor-none relative"
                     onPointerMove={mouse}
-                    onMouseDown={(e) => { setActive(true); mouse(e) }}
-                    onMouseUp={() => { setActive(false); stroke = []; snapShot() }}
-                    onMouseLeave={() => { setActive(false); stroke = [] }}
+                    onPointerDown={(e) => { setActive(true); mouse(e) }}
+                    onPointerUp={() => { setActive(false); stroke = []; snapShot() }}
+                    onPointerLeave={() => { setActive(false); stroke = [] }}
                     style={size}
                     onWheel={onwheel}
                 >
